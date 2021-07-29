@@ -1,0 +1,39 @@
+.container{
+  display: grid;
+  background-color: rgb(226, 241, 250);
+  border: 1px solid black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2ch;
+}
+.result-input-form{
+  margin-top: 5ch;
+}
+
+.result-button,
+.result-input-label{
+  background-color: rgb(212, 239, 255);
+  padding: 1ch;
+  border: solid 1px black;
+  margin: 2ch;
+  height: 3ch;
+}
+
+.result-button{
+  height: 5ch;
+}
+
+.result-button:hover{
+    background-color: rgb(250, 215, 215);
+    transform: scale(1.05);
+}
+.submission-details{
+  margin-bottom: 2ch;
+}
+
+.separate{
+  margin-left: 5ch;
+  margin-right: 5ch;
+  margin-top: 5ch;
+}

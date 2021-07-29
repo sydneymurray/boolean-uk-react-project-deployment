@@ -1,0 +1,233 @@
+{
+  "leagueStartDate": [
+    "2021-09-04"
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "The Arsenal",
+      "info": "Arsenal Football Club is a professional football club based in Islington, London, England. Arsenal plays in the Premier League, the top flight of English football. The club has won 13 league titles (including one unbeaten title), a record 14 FA Cups, two League Cups, 16 FA Community Shields, the League Centenary Trophy, one European Cup Winners' Cup, and one Inter-Cities Fairs Cup. Arsenal has also the longest top-flight unbeaten league run at 49 games between 2003 and 2004, receiving the nickname The Invincibles.",
+      "image": "https://wallpapercave.com/wp/Uw1ScBW.jpg"
+    },
+    {
+      "id": 2,
+      "name": "London Bankers",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://i.dailymail.co.uk/i/pix/2008/07/23/article-1037514-020BFD6A00000578-606_468x313_popup.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birmingham Builders",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://i.ytimg.com/vi/fsUXpOnydLU/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sheffield Steelers",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "http://www.italia.it/fileadmin/src/img/cluster_gallery/passioni_italia/calcio/Stadio_San_Paolo_-_Napoli.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Coventry Car-Makers",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://www.scanfigus.com/uploads/gallery/topic_1510635422/top-10-largest-stadiums-in-the-world1510638600-1510638600.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cardiff Coal-Miners",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://www.uniworldnews.org/storage/2014/03/Maracana-Stadium1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "City Towers",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://footballgroundguide.com/wp-content/uploads/2020/09/Estadio-Azteca.png"
+    },
+    {
+      "id": 8,
+      "name": "Croydon Towners",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://sportsshow.net/wp-content/uploads/2019/07/Best-Football-Stadiums.jpg"
+    },
+    {
+      "name": "East Londoners",
+      "info": "The Cockney Slangers. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://i.pinimg.com/originals/2c/6c/30/2c6c309ed3205f671cdfbc7113eb5f0d.jpg",
+      "id": 9
+    },
+    {
+      "name": "Southerners",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://live.staticflickr.com/65535/49965181427_34f92557ed_b.jpg",
+      "id": 10
+    },
+    {
+      "name": "Brighton Bombers",
+      "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://assets.autobuzz.my/wp-content/uploads/2019/02/11112840/2019-Mercedes-Benz-Stadium-13-1200x800.jpg",
+      "id": 11
+    },
+    {
+      "name": "Glasgow Nails",
+      "info": "Hard as NAILS. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde dolor fuga, molestiae at tenetur perspiciatis ullam? Id suscipit beatae eum minima voluptatem tempora! Ad culpa nihil exercitationem placeat quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis obcaecati fugit libero corporis recusandae voluptatum labore aperiam quas explicabo ad, ex eligendi laboriosam ullam dolor, quis neque perferendis. Minus?",
+      "image": "https://www.sportsnerd.ca/wp-content/uploads/2020/11/BC-PLACE-1024x680.jpg",
+      "id": 12
+    }
+  ],
+  "results": [
+    {
+      "homeTeam": 1,
+      "homeTeamScore": 3,
+      "awayTeam": 2,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 1
+    },
+    {
+      "homeTeam": 3,
+      "homeTeamScore": 2,
+      "awayTeam": 4,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 2
+    },
+    {
+      "homeTeam": 5,
+      "homeTeamScore": 1,
+      "awayTeam": 6,
+      "awayTeamScore": 2,
+      "matchDay": 1,
+      "id": 3
+    },
+    {
+      "homeTeam": 7,
+      "homeTeamScore": 2,
+      "awayTeam": 8,
+      "awayTeamScore": 1,
+      "matchDay": 1,
+      "id": 4
+    },
+    {
+      "homeTeam": 1,
+      "homeTeamScore": 2,
+      "awayTeam": 3,
+      "awayTeamScore": 1,
+      "matchDay": 1,
+      "id": 5
+    },
+    {
+      "homeTeam": 8,
+      "homeTeamScore": 3,
+      "awayTeam": 6,
+      "awayTeamScore": 2,
+      "matchDay": 1,
+      "id": 6
+    },
+    {
+      "homeTeam": 4,
+      "homeTeamScore": 5,
+      "awayTeam": 2,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 7
+    },
+    {
+      "homeTeam": 5,
+      "homeTeamScore": 3,
+      "awayTeam": 7,
+      "awayTeamScore": 1,
+      "matchDay": 2,
+      "id": 8
+    },
+    {
+      "homeTeam": 9,
+      "homeTeamScore": 3,
+      "awayTeam": 5,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 9
+    },
+    {
+      "homeTeam": 9,
+      "homeTeamScore": 2,
+      "awayTeam": 7,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 10
+    },
+    {
+      "homeTeam": 10,
+      "homeTeamScore": 0,
+      "awayTeam": 3,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 11
+    },
+    {
+      "homeTeam": 10,
+      "homeTeamScore": 4,
+      "awayTeam": 7,
+      "awayTeamScore": 1,
+      "matchDay": 2,
+      "id": 12
+    },
+    {
+      "homeTeam": 2,
+      "homeTeamScore": 3,
+      "awayTeam": 9,
+      "awayTeamScore": 0,
+      "matchDay": 3,
+      "id": 13
+    },
+    {
+      "homeTeam": 11,
+      "homeTeamScore": 2,
+      "awayTeam": 6,
+      "awayTeamScore": 1,
+      "matchDay": 3,
+      "id": 14
+    },
+    {
+      "homeTeam": 12,
+      "homeTeamScore": 3,
+      "awayTeam": 11,
+      "awayTeamScore": 2,
+      "matchDay": 1,
+      "id": 15
+    },
+    {
+      "homeTeam": 12,
+      "homeTeamScore": 1,
+      "awayTeam": 9,
+      "awayTeamScore": 0,
+      "matchDay": 1,
+      "id": 16
+    },
+    {
+      "homeTeam": 4,
+      "homeTeamScore": 3,
+      "awayTeam": 10,
+      "awayTeamScore": 0,
+      "matchDay": 3,
+      "id": 17
+    },
+    {
+      "homeTeam": 11,
+      "homeTeamScore": 2,
+      "awayTeam": 1,
+      "awayTeamScore": 3,
+      "matchDay": 3,
+      "id": 18
+    },
+    {
+      "homeTeam": 11,
+      "homeTeamScore": 1,
+      "awayTeam": 5,
+      "awayTeamScore": 2,
+      "matchDay": 4,
+      "id": 19
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+
+.header-container{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    margin: 1ch;
+    background-color: rgb(212, 239, 255);
+    border: 1px solid black;
+}
+
+

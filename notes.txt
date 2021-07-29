@@ -1,0 +1,21 @@
+1) Create a Project
+   npx create-react-app boolean-uk-react-project
+
+2) Install the App
+   npm Install
+
+3) Install React-Router
+   npm install react-Router-dom 
+
+4) Install zustand
+   npm install zustand
+
+5) start JSON
+   json-server --watch db/db.json -p 4000
+
+6) Start the App
+   npm Start
+
+7)
+
+

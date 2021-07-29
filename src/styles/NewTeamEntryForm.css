@@ -1,0 +1,27 @@
+.registration-input-form{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+  background-color: rgb(226, 241, 250);
+  border: 1px solid black;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2ch;  
+  margin-top: 2ch;
+  padding-top: 2ch;
+  padding-left: 10ch;
+  padding-right: 10ch;
+}
+
+.team-image-label,
+.team-input-label{
+  font-size: 1.2rem;
+  margin-top: 3ch;
+  text-align: left;
+}
+.reg-button{
+  margin-top: 5ch;
+  margin-bottom: 5ch;
+}
+

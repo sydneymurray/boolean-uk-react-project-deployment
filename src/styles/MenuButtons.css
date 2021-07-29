@@ -1,0 +1,19 @@
+.menu-buttons{
+  display: inline-block;
+  padding: 1ch 2ch 1ch 2ch;
+  margin: 2ch 4ch 2ch 4ch;
+
+  background-color: rgb(212, 239, 255);
+  border: 1px solid black;
+}
+
+.links{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-buttons:hover{
+  background-color: rgb(250, 215, 215);
+  transform: scale(1.05);
+}

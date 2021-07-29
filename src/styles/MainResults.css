@@ -1,0 +1,40 @@
+.main-result-list{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, auto);
+    background-color: rgb(241, 241, 207);
+    background-color: rgb(212, 239, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    max-width: 750px;
+    max-height: 68vh;
+    overflow-y: auto;
+  }
+  
+  .result-heading-li,
+  .team-result-li{
+    display: grid;
+    grid-template-columns: 90px 220px 50px 70px 50px 220px;
+  }
+  
+  .result-heading-li{
+      font-size: 1.3rem;
+      font-weight: bold;
+      background-color: rgb(212, 239, 255);
+      text-decoration: none;
+      border-bottom-style: solid; 
+      border-bottom-width: 1px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  
+  .fixture-list-item-span{
+    padding: 0.5ch;
+  }
+
+  .team-result-li{
+    display: grid;
+    font-size: 1.2rem;
+    background-color: rgb(226, 241, 250);
+  }
+
