@@ -1,4 +1,11 @@
-
+/*
+.team-info-container{
+  display: grid;
+  grid-template:
+  "team-info-div main-result-list" auto /
+   1fr 1fr;  
+}
+*/
 .team-info-div{
   max-width: 700px;
   margin-left: auto;
@@ -8,9 +15,11 @@
   border: 1px solid black;
   background-color: rgb(212, 239, 255);
 }
+
 .team-image{
   width: 650px;
 }
+
 .team-info-text{
   text-align: justify;
   margin-bottom: 2ch;
@@ -42,6 +51,7 @@
     border-bottom-width: 1px;
     padding-top: 6px;
     padding-bottom: 6px;
+
   }
   
   .fixture-list-item-span{

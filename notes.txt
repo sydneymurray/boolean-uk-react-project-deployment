@@ -12,6 +12,7 @@
 
 5) start JSON
    json-server --watch db/db.json -p 4000
+   json-server --watch db/db.json -p 3500
 
 6) Start the App
    npm Start

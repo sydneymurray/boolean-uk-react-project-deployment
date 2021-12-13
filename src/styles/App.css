@@ -1,5 +1,7 @@
 .app-container{
-  background-image: url("http://localhost:3000/Wembley-Stadium.jfif");
+  background-image: url("http://localhost:3400/Wembley-Stadium.jfif");
+  background-repeat: repeat-y;
+  background-position: center; 
   padding: 30px;
   height: 100vh;
 }

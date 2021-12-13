@@ -14,22 +14,24 @@ export default function TeamInfo(){
   let filteredResults = results.filter(result =>  Number(id) === result.homeTeam || Number(id) === result.awayTeam)
 
   return <>
-    <div className="team-info-div">
-      <h2>{team.name}</h2>
-      <h4 className="team-info-text">{team.info}</h4> 
-      <img className="team-image" src={team.image} alt={team.name}></img>
+    <div className="team-info-container">
+      <div className="team-info-div">
+        <h2>{team.name}</h2>
+        <h4 className="team-info-text">{team.info}</h4> 
+        <img className="team-image" src={team.image} alt={team.name}></img>
+      </div>
+      <ul className="main-result-list">
+        <li className="result-heading-li">
+          <span className="fixture-list-item-span fixture-list-item-place">Match-Day</span>
+          <span className="fixture-list-item-span ">Home-Team</span>
+          <span className="fixture-list-item-span ">Goals</span>
+          <span className="fixture-list-item-span "> - </span>
+          <span className="fixture-list-item-span ">Goals</span>
+          <span className="fixture-list-item-span ">Away-Team</span>
+        </li>
+        {filteredResults.map(result=><RenderTeamResultListItem result={result}/>)}
+      </ul>
     </div>
-    <ul className="main-result-list">
-      <li className="result-heading-li">
-        <span className="fixture-list-item-span fixture-list-item-place">Match-Day</span>
-        <span className="fixture-list-item-span ">Home-Team</span>
-        <span className="fixture-list-item-span ">Goals</span>
-        <span className="fixture-list-item-span "> - </span>
-        <span className="fixture-list-item-span ">Goals</span>
-        <span className="fixture-list-item-span ">Away-Team</span>
-      </li>
-      {filteredResults.map(result=><RenderTeamResultListItem result={result}/>)}
-    </ul>
   </>
 }
 
