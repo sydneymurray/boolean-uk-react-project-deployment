@@ -1,7 +1,4 @@
 .app-container{
-  background-image: url("../resources/Wembley-Stadium.jfif");
-  background-repeat: repeat-y;
-  background-position: center; 
   padding: 30px;
   height: 100vh;
 }
