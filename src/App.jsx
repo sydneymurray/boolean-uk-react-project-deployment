@@ -19,7 +19,6 @@ function App() {
   let retrieveleagueStartDate = useStore(store => store.retrieveleagueStartDate)
 
   if(!leagueStartDate) retrieveleagueStartDate()
-  console.log(leagueStartDate)
   retrieveTeams()
   retrieveResults()
 

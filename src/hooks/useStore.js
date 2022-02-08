@@ -3,8 +3,6 @@ import {teamsURL} from "../components/data"
 import {resultsURL} from "../components/data"
 import {leagueStartDateURL} from "../components/data"
 
-console.log(resultsURL)
-
 const useStore = create((set, get)=>({
   leagueStartDate: null,
   retrieveleagueStartDate() {
