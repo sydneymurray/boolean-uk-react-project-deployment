@@ -8,13 +8,13 @@ console.log(resultsURL)
 const useStore = create((set, get)=>({
   leagueStartDate: null,
   retrieveleagueStartDate() {
-    fetch(leagueStartDateURL)
+    fetch(leagueStartDateURL, {credentials: "include"})
       .then(resp => resp.json())
       .then(([leagueStartDate]) => set({leagueStartDate}))
   },
   teams: null,
   retrieveTeams() {
-    fetch(teamsURL)
+    fetch(teamsURL, {credentials: "include"})
       .then(resp => resp.json())
       .then(teams => set({teams}))
   },
