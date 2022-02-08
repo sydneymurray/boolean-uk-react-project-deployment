@@ -1,4 +1,6 @@
-export let leagueStartDateURL="http://localhost:3500/leagueStartDate"
-export let teamsURL="http://localhost:3500/teams"
-export let resultsURL="http://localhost:3500/results"
+//export let baseURL = "http://localhost:3500"
+export let baseURL = process.env.REACT_APP_API_URL
+export let leagueStartDateURL = baseURL + "leagueStartDate"
+export let teamsURL = baseURL + "teams"
+export let resultsURL = baseURL + "results"
 

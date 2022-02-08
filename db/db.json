@@ -228,6 +228,14 @@
       "awayTeamScore": 2,
       "matchDay": 4,
       "id": 19
+    },
+    {
+      "homeTeam": 8,
+      "homeTeamScore": 0,
+      "awayTeam": 12,
+      "awayTeamScore": 3,
+      "matchDay": 3,
+      "id": 20
     }
   ]
 }

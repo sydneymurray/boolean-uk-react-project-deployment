@@ -1,7 +1,7 @@
 import "../styles/MainResults.css"
 import useStore from "../hooks/useStore"
 
-export default function RenderTeamResultListItem({result}){
+export default function RenderTeamResultListItem({result, index}){
   let teams = useStore(store => store.teams)
   let homeTeam = teams.find(team => team.id === result.homeTeam)
   let awayTeam = teams.find(team => team.id === result.awayTeam)

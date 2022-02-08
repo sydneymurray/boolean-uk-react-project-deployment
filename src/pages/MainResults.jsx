@@ -7,7 +7,7 @@ export default function MainResults(){
   let results = useStore(store => store.results)
 
   if (teams === null || results === null) return <></>
-  
+
   return <>
     <ul className="main-result-list">
       <li className="result-heading-li">
@@ -18,7 +18,7 @@ export default function MainResults(){
         <span className="fixture-list-item-span ">Away Goals</span>
         <span className="fixture-list-item-span ">Away-Team</span>
       </li>
-      {results.map(result=><RenderTeamResultListItem result={result}/>)}
+      {results.map((result, index)=><RenderTeamResultListItem result={result} index={index}/>)}
     </ul>
   </>
   
