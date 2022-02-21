@@ -77,10 +77,13 @@
     display: none;
   }
   .main-list{
-    max-width: 410px;
+    max-width: 360px;
   }
   .heading-li,
   .team-li{
-    max-width: 408px;
+    max-width: 358px;
   }	
+  .team-name{
+    width: 15ch;
+  }
 }
