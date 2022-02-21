@@ -43,10 +43,16 @@ export default function buildTableArray(teams, results){
     team.goalDifference = team.goalsFor - team.goalsAgainst
     tableArray = [...tableArray, team]
   }
+
+  // SORT DATA IN POINTS ORDER
   let tableDataArray=[]
   for (let points = 3 * teams.length; points >= 0; points--)
     for (const team of tableArray) 
-      if (team.points === points) tableDataArray = [...tableDataArray, team]         
+      if (team.points === points) tableDataArray = [...tableDataArray, team]  
+      
+  // IF POINTS ARE EQUAL THEN SEPARATE BY GOAL DIFFERENCE
+  for (let i = 0; i < tableDataArray.length-1; i++)
+    console.log(tableDataArray[1])
     
   return tableDataArray
 }

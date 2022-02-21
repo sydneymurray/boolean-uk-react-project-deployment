@@ -46,9 +46,3 @@ export default function Fixtures(){
     </ul></>
 }
 
-/*
-if (matchDay < teams.length)
-fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, homeTeam: homeTeams[match], awayTeam: awayTeams[match]}]
-else
-fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, awayTeam: awayTeams[match], homeTeam: homeTeams[match]}]
-*/
