@@ -11,8 +11,7 @@
 .heading-li,
 .team-li{
   display: grid;
-  grid-template-columns: 30px auto 1fr 70px 70px 70px 70px 70px 70px 70px 70px    ;
-
+  grid-template-columns: 30px auto 1fr 70px 70px 70px 70px 70px 70px 70px 70px;
 }
 .team-name{
   width: 20ch;
@@ -24,7 +23,6 @@
     font-weight: bold;
     background-color: rgb(212, 239, 255);
     border-bottom-style: solid; 
-
     border-bottom-width: 1px;
   }
 
@@ -60,29 +58,25 @@
 
 
 @media screen and (max-width: 900px) {
-  .goals {
-    display: none;
-  }
-  .main-list{
-    max-width: 610px;
-  }
   .heading-li,
   .team-li{
-    max-width: 608px;
+    display: grid;
+    grid-template-columns: 30px auto 1fr 70px 70px 70px 70px 70px;
+  }
+  .goals {
+    display: none;
   }	
 }
 
 @media screen and (max-width: 650px) {
+  .heading-li,
+  .team-li{
+    display: grid;
+    grid-template-columns: 30px auto 1fr 70px 70px;
+  }
   .game-stats {
     display: none;
   }
-  .main-list{
-    max-width: 350px;
-  }
-  .heading-li,
-  .team-li{
-    max-width: 348px;
-  }	
   .team-name{
     width: 15ch;
   }

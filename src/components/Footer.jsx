@@ -6,11 +6,11 @@ export default function Footer(){
       <div className="signature">
         <h4>&copy; Brodda Syd Productions</h4>
       </div>
-      <div>
+      <div className="signature">
         <h4>Contact us:</h4>
         <span>0118 999 881 999 119 7253</span>
       </div>
-      <div>
+      <div className="signature">
         <h4>Address:</h4>
         <p>Mind your own BUSINESS!</p>
       </div>

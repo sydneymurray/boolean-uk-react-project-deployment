@@ -10,3 +10,12 @@
   padding-bottom: 3ch;
 }
 
+@media screen and (max-width: 530px) {
+  .Footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .signature {
+    display: none;
+  }
+}
