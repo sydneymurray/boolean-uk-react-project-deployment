@@ -20,9 +20,15 @@ export default function Fixtures(){
       matchDate = new Date(matchDate)
       matchDateText = " - "+ matchDate.toString().slice(0,15) 
       if (matchDay < teams.length)
-        fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, homeTeam: homeTeams[match], awayTeam: awayTeams[match]}]
+        if(matchDay%2) 
+          fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, homeTeam: homeTeams[match], awayTeam: awayTeams[match]}]
+        else
+          fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, awayTeam: homeTeams[match], homeTeam: awayTeams[match]}]
       else
-        fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, awayTeam: awayTeams[match], homeTeam: homeTeams[match]}]
+        if(matchDay%2)
+          fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, awayTeam: awayTeams[match], homeTeam: homeTeams[match]}]
+        else
+          fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, homeTeam: awayTeams[match], awayTeam: homeTeams[match]}]
     }
     awayTeams.push(homeTeams.pop())
     homeTeams.unshift(awayTeams.shift())
@@ -38,5 +44,11 @@ export default function Fixtures(){
       </li>
       {fixturesList.map(fixture => <RenderFixtureListItem fixture={fixture}/>)}
     </ul></>
-}  
+}
 
+/*
+if (matchDay < teams.length)
+fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, homeTeam: homeTeams[match], awayTeam: awayTeams[match]}]
+else
+fixturesList = [...fixturesList, {matchDay: matchDay+matchDateText, awayTeam: awayTeams[match], homeTeam: homeTeams[match]}]
+*/
