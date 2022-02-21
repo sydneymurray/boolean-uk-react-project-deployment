@@ -1,56 +1,23 @@
+import createTableData from "./createTableData"
 
 export default function buildTableArray(teams, results){
-  let tableArray = []
-  for (const team of teams) {
-    team.gamesPlayed = 0
-    team.gamesWon = 0
-    team.gamesDrew = 0
-    team.gamesLost = 0
-    team.goalsFor = 0
-    team.goalsAgainst = 0
-    team.goalDifference = 0
-    team.points = 0
-    for (const result of results){
-      if (team.id === result.homeTeam){
-        team.gamesPlayed += 1
-        if (result.homeTeamScore > result.awayTeamScore) {
-          team.gamesWon += 1
-          team.points += 3
-        }
-        if (result.homeTeamScore === result.awayTeamScore) {
-          team.gamesDrew += 1
-          team.points += 1
-        }
-        if (result.homeTeamScore < result.awayTeamScore) team.gamesLost += 1
-        team.goalsFor += result.homeTeamScore
-        team.goalsAgainst += result.awayTeamScore  
-      }
-      if (team.id === result.awayTeam){
-        team.gamesPlayed += 1
-        if (result.homeTeamScore < result.awayTeamScore) {
-          team.gamesWon += 1
-          team.points += 3
-        }
-        if (result.homeTeamScore === result.awayTeamScore) {
-          team.gamesDrew += 1
-          team.points += 1
-        }
-        if (result.homeTeamScore > result.awayTeamScore) team.gamesLost += 1
-        team.goalsFor += result.awayTeamScore
-        team.goalsAgainst += result.homeTeamScore          
-      }
-    }
-    team.goalDifference = team.goalsFor - team.goalsAgainst
-    tableArray = [...tableArray, team]
-  }
+  let tableRawData = createTableData(teams, results)
+  let tableDataArray = []
+  let temporaryArray = []
+  let pointsFilter = [] 
 
-  // SORT DATA IN POINTS ORDER
-  let tableDataArray=[]
-  for (let points = 3 * teams.length; points >= 0; points--)
-    for (const team of tableArray) 
-      if (team.points === points) tableDataArray = [...tableDataArray, team]  
-      
+  // SORT IN POINTS ORDER
+  tableRawData.sort((a, b) => b.points - a.points )
+
+  // NOW SORT BY GOAL DIFFERENCE TOO
+  while(tableRawData.length){
+    pointsFilter = tableRawData[0].points
+    temporaryArray = tableRawData.filter(team => team.points === pointsFilter)
+    tableRawData = tableRawData.filter(team => team.points !== pointsFilter)
+    temporaryArray.sort((a, b) => b.goalDifference - a.goalDifference)
+    tableDataArray = [...tableDataArray, ...temporaryArray]
+  }  
+
   return tableDataArray
 }
-
 
