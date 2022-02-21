@@ -71,3 +71,16 @@
     max-width: 608px;
   }	
 }
+
+@media screen and (max-width: 650px) {
+  .game-stats {
+    display: none;
+  }
+  .main-list{
+    max-width: 410px;
+  }
+  .heading-li,
+  .team-li{
+    max-width: 408px;
+  }	
+}

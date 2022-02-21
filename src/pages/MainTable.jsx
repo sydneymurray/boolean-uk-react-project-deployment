@@ -16,9 +16,9 @@ export default function MainTable(){
         <span className="list-item-span team-name">Team</span>
         <span className="list-item-span spacer"></span>
         <span className="list-item-span ">Played</span>
-        <span className="list-item-span ">Won</span>
-        <span className="list-item-span ">Drew</span>
-        <span className="list-item-span ">Lost</span>
+        <span className="list-item-span game-stats">Won</span>
+        <span className="list-item-span game-stats">Drew</span>
+        <span className="list-item-span game-stats">Lost</span>
         <span className="list-item-span goals">Goals For</span>
         <span className="list-item-span goals">Goals Against</span>
         <span className="list-item-span goals">Goal Diff.</span>

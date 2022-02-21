@@ -8,9 +8,9 @@ export default function RenderTeamListItem({team, index}){
         <span className="list-item-span team-name">{team.name}</span>
         <span className="list-item-span spacer"></span>
         <span className="list-item-span ">{team.gamesPlayed}</span>
-        <span className="list-item-span ">{team.gamesWon}</span>
-        <span className="list-item-span ">{team.gamesDrew}</span>
-        <span className="list-item-span ">{team.gamesLost}</span>
+        <span className="list-item-span game-stats">{team.gamesWon}</span>
+        <span className="list-item-span game-stats">{team.gamesDrew}</span>
+        <span className="list-item-span game-stats">{team.gamesLost}</span>
         <span className="list-item-span goals">{team.goalsFor}</span>
         <span className="list-item-span goals">{team.goalsAgainst}</span>
         <span className="list-item-span goals">{team.goalDifference}</span>
