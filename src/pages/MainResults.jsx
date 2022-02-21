@@ -5,6 +5,7 @@ import RenderTeamResultListItem from "../components/RenderTeamResultListItem"
 export default function MainResults(){
   let teams = useStore(store => store.teams)
   let results = useStore(store => store.results)
+  results.sort((a, b) => a.matchDay - b.matchDay)
 
   if (teams === null || results === null) return <></>
 
