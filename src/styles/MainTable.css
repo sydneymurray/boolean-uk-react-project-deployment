@@ -14,7 +14,11 @@
   grid-template-columns: 30px auto 1fr 70px 70px 70px 70px 70px 70px 70px 70px    ;
 
 }
-
+.team-name{
+  width: 20ch;
+  text-align: left;
+  margin-left: 1ch;
+}
 .heading-li{
     font-size: 1.3rem;
     font-weight: bold;
@@ -55,15 +59,15 @@
   }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .goals {
     display: none;
   }
   .main-list{
-    max-width: 470px;
+    max-width: 610px;
   }
   .heading-li,
   .team-li{
-    max-width: 468px;
-  }
+    max-width: 608px;
+  }	
 }

@@ -13,7 +13,7 @@ export default function MainTable(){
     <ul className="main-list">
       <li className="heading-li">
         <span className="list-item-span list-item-place">#</span>
-        <span className="list-item-span ">Team</span>
+        <span className="list-item-span team-name">Team</span>
         <span className="list-item-span spacer"></span>
         <span className="list-item-span ">Played</span>
         <span className="list-item-span ">Won</span>
