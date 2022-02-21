@@ -50,22 +50,6 @@ export default function buildTableArray(teams, results){
     for (const team of tableArray) 
       if (team.points === points) tableDataArray = [...tableDataArray, team]  
       
-  // IF POINTS ARE EQUAL THEN SEPARATE BY GOAL DIFFERENCE
-  let keepSorting = true
-  let positionSwapped = false
-  while (keepSorting){
-    let temporaryDataArray = []
-    for (let i = 0; i < tableDataArray.length-1; i+=2)
-      if (tableDataArray[i].points === tableDataArray[i+1].points && tableDataArray[i].goalDifference < tableDataArray[i+1].goalDifference){
-        positionSwapped = true
-        temporaryDataArray = [...temporaryDataArray, tableDataArray[i+1].points, tableDataArray[i]]
-      }
-      else
-        temporaryDataArray = [...temporaryDataArray, tableDataArray[i].points, tableDataArray[i+1]]
-    }
-    tableDataArray = [...temporaryDataArray]
-
-  }  
   return tableDataArray
 }
 
