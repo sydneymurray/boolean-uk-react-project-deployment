@@ -60,10 +60,10 @@ export default function buildTableArray(teams, results){
     for (let i = 0; i < tableDataArray.length-1; i+=2)
       if (tableDataArray[i].points === tableDataArray[i+1].points && tableDataArray[i].goalDifference < tableDataArray[i+1].goalDifference){
         positionSwapped = true
-        temporaryDataArray = [...temporaryDataArray, tableDataArray[i+1].points, tableDataArray[i]]
+        temporaryDataArray = [...temporaryDataArray, tableDataArray[i+1], tableDataArray[i]]
       }
       else
-        temporaryDataArray = [...temporaryDataArray, tableDataArray[i].points, tableDataArray[i+1]]
+        temporaryDataArray = [...temporaryDataArray, tableDataArray[i], tableDataArray[i+1]]
     if (positionSwapped) keepSorting = false
 
   }
