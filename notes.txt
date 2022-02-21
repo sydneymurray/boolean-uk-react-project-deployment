@@ -11,14 +11,12 @@
    npm install zustand
 
 5) start JSON (if using local JSON)
-   json-server --watch db/db.json -p 4000
    json-server --watch db/db.json -p 3500
 
 6) Start the App
    npm Start
 
 https://github.com/sydneymurray/boolean-uk-react-project-deployment.git
-
 
 Hosted at:
 https://condescending-colden-37030e.netlify.app/
