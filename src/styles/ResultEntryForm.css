@@ -1,5 +1,5 @@
 .container{
-  display: grid;
+
   background-color: rgb(226, 241, 250);
   border: 1px solid black;
   max-width: 900px;
@@ -16,8 +16,10 @@
   background-color: rgb(212, 239, 255);
   padding: 1ch;
   border: solid 1px black;
-  margin: 2ch;
+  margin-left: 2ch;
+  margin-right: 2ch;
   height: 3ch;
+  margin-top: 10ch;
 }
 
 .result-button{
@@ -36,4 +38,16 @@
   margin-left: 5ch;
   margin-right: 5ch;
   margin-top: 5ch;
+}
+
+@media screen and (max-width: 860px) {
+  .container{
+    max-width: 456px
+  }
+  select{
+    margin-top: 5ch;
+  }
+  .result-input-form{
+    margin-top: 1ch;
+  }
 }

@@ -35,7 +35,7 @@ export default function ResultEntryForm(){
       awayTeamScore: Number(event.target.awayTeamGoals.value),
       matchDay: Number(event.target.matchDay.value)
     }
-     addAResult(result)
+    addAResult(result)
     recordResult(result)
     event.target.reset()
   }
