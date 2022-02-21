@@ -12,12 +12,12 @@ export default function MainResults(){
   return <>
     <ul className="main-result-list">
       <li className="result-heading-li">
-        <span className="fixture-list-item-span fixture-list-item-place">Match-Day</span>
-        <span className="fixture-list-item-span ">Home-Team</span>
-        <span className="fixture-list-item-span ">Home Goals</span>
-        <span className="fixture-list-item-span "></span>
-        <span className="fixture-list-item-span ">Away Goals</span>
-        <span className="fixture-list-item-span ">Away-Team</span>
+        <span className="fixture-list-item-span fixture-list-item-place match-day">Match-Day</span>
+        <span className="fixture-list-item-span home-team">Home-Team</span>
+        <span className="fixture-list-item-span home-goals">Home Goals</span>
+        <span className="fixture-list-item-span result-separator"></span>
+        <span className="fixture-list-item-span away-team">Away Goals</span>
+        <span className="fixture-list-item-span away-goals">Away-Team</span>
       </li>
       {results.map((result, index)=><RenderTeamResultListItem result={result} index={index}/>)}
     </ul>
