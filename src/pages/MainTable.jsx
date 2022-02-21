@@ -24,7 +24,7 @@ export default function MainTable(){
         <span className="list-item-span goals">Goal Diff.</span>
         <span className="list-item-span ">Points</span>
       </li>
-      {tableArray.map((team, index) =><RenderTeamListItem team={team} key={index}/>)}
+      {tableArray.map((team, index) =><RenderTeamListItem team={team} key={index} index={index}/>)}
     </ul>
   </>
 
