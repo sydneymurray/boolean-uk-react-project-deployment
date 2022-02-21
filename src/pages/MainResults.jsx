@@ -19,7 +19,7 @@ export default function MainResults(){
         <span className="fixture-list-item-span away-team">Away Goals</span>
         <span className="fixture-list-item-span away-goals">Away-Team</span>
       </li>
-      {results.map((result, index)=><RenderTeamResultListItem result={result} index={index}/>)}
+      {results.map((result, index)=><RenderTeamResultListItem result={result} key={index}/>)}
     </ul>
   </>
   

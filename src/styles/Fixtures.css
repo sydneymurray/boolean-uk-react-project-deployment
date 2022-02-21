@@ -11,28 +11,46 @@
   overflow-y: auto;
 }
 
+.fixture-heading-li,
+.fixture-li{
+  display: grid;
+  grid-template-columns: 200px 220px 50px 220px;
+}
+
+.fixture-heading-li{
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: rgb(212, 239, 255);
+  border-bottom-style: solid; 
+  border-bottom-width: 1px;
+  padding-top: 1ch;
+  padding-bottom: 1ch;
+}
+
+.fixture-list-item-span{
+  padding: 0.5ch;
+}
+
+.fixture-li{
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: rgb(226, 241, 250);
+}
+
+@media screen and (max-width: 700px) {
+  .main-fixture-list{
+    max-width: 440px;
+  }
+  
   .fixture-heading-li,
   .fixture-li{
-    display: grid;
-    grid-template-columns: 200px 220px 50px 220px;
-  }
-  
-  .fixture-heading-li{
-      font-size: 1.3rem;
-      font-weight: bold;
-      background-color: rgb(212, 239, 255);
-      border-bottom-style: solid; 
-      border-bottom-width: 1px;
-      padding-top: 1ch;
-      padding-bottom: 1ch;
-    }
-  
-  .fixture-list-item-span{
-    padding: 0.5ch;
+  display: grid;
+  grid-template-columns: 170px 110px 20px 110px;
+  margin-top: 1ch;
   }
 
-  .fixture-li{
-    text-decoration: none;
-    font-size: 1.2rem;
-    background-color: rgb(226, 241, 250);
+  .verses{
+    display: none;
   }
+
+}

@@ -38,11 +38,11 @@ export default function Fixtures(){
     <ul className="main-fixture-list">
       <li className="fixture-heading-li">
         <span className="fixtures-list-item-span fixture-list-item-place">Match-Day</span>
-        <span className="fixtures-list-item-span ">Home-Team</span>
-        <span className="fixtures-list-item-span "> vs </span>
-        <span className="fixtures-list-item-span ">Away-Team</span>
+        <span className="fixtures-list-item-span">Home-Team</span>
+        <span className="fixtures-list-item-span"></span>
+        <span className="fixtures-list-item-span">Away-Team</span>
       </li>
-      {fixturesList.map(fixture => <RenderFixtureListItem fixture={fixture}/>)}
+      {fixturesList.map(fixture => <RenderFixtureListItem  fixture={fixture}/>)}
     </ul></>
 }
 
