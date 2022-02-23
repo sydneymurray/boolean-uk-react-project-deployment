@@ -75,6 +75,9 @@
       max-width: 400px;
       text-align: center;
     }
+    .team-image{
+      width: 50%;
+    }
     .match-day{
       display: none;
     }
