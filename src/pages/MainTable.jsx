@@ -14,7 +14,6 @@ export default function MainTable(){
       <li className="heading-li">
         <span className="list-item-span list-item-place">#</span>
         <span className="list-item-span team-name">Team</span>
-        <span className="list-item-span spacer"></span>
         <span className="list-item-span games-played">Played</span>
         <span className="list-item-span game-stats">Won</span>
         <span className="list-item-span game-stats">Drew</span>

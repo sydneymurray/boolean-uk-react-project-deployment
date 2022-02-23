@@ -37,7 +37,9 @@ export default function Fixtures(){
   return <>
     <ul className="main-fixture-list">
       <li className="fixture-heading-li">
-        <span className="fixtures-list-item-span fixture-list-item-place">Match-Day</span>
+        <span className="fixtures-list-item-span fixture-list-item-place">
+          <span className="no-match">Match-</span>Day
+        </span>
         <span className="fixtures-list-item-span">Home-Team</span>
         <span className="fixtures-list-item-span"></span>
         <span className="fixtures-list-item-span">Away-Team</span>

@@ -25,11 +25,11 @@ export default function TeamInfo(){
       <ul className="main-result-list">
         <li className="result-heading-li">
           <span className="fixture-list-item-span fixture-list-item-place match-day">Match-Day</span>
-          <span className="fixture-list-item-span ">Home-Team</span>
-          <span className="fixture-list-item-span ">Goals</span>
-          <span className="fixture-list-item-span "> - </span>
-          <span className="fixture-list-item-span ">Goals</span>
-          <span className="fixture-list-item-span ">Away-Team</span>
+          <span className="fixture-list-item-span">Home-Team</span>
+          <span className="fixture-list-item-span">Goals</span>
+          <span className="fixture-list-item-span no-divide"> - </span>
+          <span className="fixture-list-item-span">Goals</span>
+          <span className="fixture-list-item-span">Away-Team</span>
         </li>
         {filteredResults.map(result=><RenderTeamResultListItem result={result}/>)}
       </ul>

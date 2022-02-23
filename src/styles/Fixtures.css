@@ -41,16 +41,27 @@
   .main-fixture-list{
     max-width: 440px;
   }
-  
   .fixture-heading-li,
   .fixture-li{
-  display: grid;
-  grid-template-columns: 170px 110px 20px 110px;
-  margin-top: 1ch;
+    grid-template-columns: 170px 110px 20px 110px;
+    margin-top: 1ch;
   }
-
   .verses{
     display: none;
   }
+}
 
+@media screen and (max-width: 450px) {
+  .main-fixture-list{
+    max-width: 340px;
+  }
+  .fixture-heading-li,
+  .fixture-li{
+    grid-template-columns: 70px 110px 20px 110px;
+    margin-top: 1ch;
+  }
+  .no-match,
+  .verses{
+    display: none;
+  }
 }

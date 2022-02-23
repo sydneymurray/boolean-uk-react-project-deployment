@@ -34,7 +34,6 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-    max-width: 750px;
   }
   
   .result-heading-li,
@@ -79,6 +78,21 @@
       width: 50%;
     }
     .match-day{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .main-fixture-list{
+      max-width: 340px;
+    }
+    .fixture-heading-li,
+    .fixture-li{
+      grid-template-columns: 70px 110px 20px 110px;
+      margin-top: 1ch;
+    }
+    .no-match,
+    .verses{
       display: none;
     }
   }
