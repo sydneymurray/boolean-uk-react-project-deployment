@@ -18,7 +18,9 @@ export default function TeamInfo(){
       <div className="team-info-div">
         <h2>{team.name}</h2>
         <h4 className="team-info-text">{team.info}</h4> 
-        <img className="team-image" src={team.image} alt={team.name}></img>
+        <div className="image-container">
+          <img className="team-image" src={team.image} alt={team.name}></img>
+        </div>
       </div>
       <ul className="main-result-list">
         <li className="result-heading-li">
