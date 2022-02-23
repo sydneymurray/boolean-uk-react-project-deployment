@@ -17,7 +17,7 @@
 }
 
 .team-image{
-  width: 650px;
+  width: 100%
 }
 
 .team-info-text{
@@ -63,4 +63,21 @@
     font-size: 1.2rem;
     background-color: rgb(226, 241, 250);
   }
+
+  @media screen and (max-width: 750px) {
+    .main-result-list{
+      max-width: 390px;
+    }
+    .result-heading-li,
+    .team-result-li{
+      display: grid;
+      grid-template-columns: 110px 45px 45px 45px 110px;
+      max-width: 400px;
+      text-align: center;
+    }
+    .match-day{
+      display: none;
+    }
+  }
+  
 
