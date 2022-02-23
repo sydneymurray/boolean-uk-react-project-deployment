@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 650px) {
   .main-list{
-    width: 400px;
+    width: fit-content;
   }
   .heading-li,
   .team-li{
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 420px) {
   .main-list{
-    max-width: 330px;
+    width: fit-content;
   }
   .heading-li,
   .team-li{
