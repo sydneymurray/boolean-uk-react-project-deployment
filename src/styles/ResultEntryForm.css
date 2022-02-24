@@ -1,5 +1,4 @@
 .container{
-
   background-color: rgb(226, 241, 250);
   border: 1px solid black;
   max-width: 900px;
@@ -51,3 +50,14 @@
     margin-top: 1ch;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container{
+    width: 360px;
+  }
+  .result-input-label,
+  .separate{
+    margin: 0.5ch;
+  }
+}
+
