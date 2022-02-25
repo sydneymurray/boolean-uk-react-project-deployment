@@ -1,4 +1,3 @@
-//import "../styles/MainResults.css"
 import useStore from "../hooks/useStore"
 
 export default function RenderTeamResultListItem({result, index}){

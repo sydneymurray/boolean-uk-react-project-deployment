@@ -1,7 +1,7 @@
 import "../styles/Fixtures.css"
 import useStore from "../hooks/useStore"
 import buildFixturesArray from "../components/buildFixturesArray"
-import RenderFixtureListItem from"../components/RenderFixtureListItem"
+import RenderFixtureListItem from "../components/RenderFixtureListItem.jsx"
 
 export default function Fixtures(){
   let teams = useStore(store => store.teams)

@@ -1,4 +1,4 @@
-//import "../styles/Fixtures.css"
+
 export default function RenderFixtureListItem({fixture}){
 
   return <>
