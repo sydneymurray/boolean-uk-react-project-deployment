@@ -31,7 +31,7 @@ export default function TeamInfo(){
           <span className="fixture-list-item-span">Goals</span>
           <span className="fixture-list-item-span">Away-Team</span>
         </li>
-        {filteredResults.map(result=><RenderTeamResultListItem result={result}/>)}
+        {filteredResults.map((result, index)=><RenderTeamResultListItem key={index} result={result}/>)}
       </ul>
     </div>
   </>

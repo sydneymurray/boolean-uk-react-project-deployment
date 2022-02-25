@@ -20,7 +20,7 @@ export default function Fixtures(){
         <span className="fixtures-list-item-span"></span>
         <span className="fixtures-list-item-span">Away-Team</span>
       </li>
-      {fixturesList.map(fixture => <RenderFixtureListItem  fixture={fixture}/>)}
+      {fixturesList.map((fixture, index) => <RenderFixtureListItem  key={index} fixture={fixture}/>)}
     </ul></>
 }
 

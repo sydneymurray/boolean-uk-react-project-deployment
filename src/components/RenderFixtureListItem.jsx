@@ -1,5 +1,5 @@
 
-export default function RenderFixtureListItem({fixture}){
+export default function RenderFixtureListItem({fixture, index}){
 
   return <>
     <li className="fixture-li">
