@@ -74,7 +74,7 @@
   }
   .heading-li,
   .team-li{
-    grid-template-columns: 30px 20ch 70px 70px;
+    grid-template-columns: 30px auto 70px 70px;
   }
   .game-stats {
     display: none;
@@ -87,7 +87,7 @@
   }
   .heading-li,
   .team-li{
-    grid-template-columns: 20px 20ch 52px 52px;
+    grid-template-columns: 20px auto 52px 52px;
   }
   .list-item-span{
     font-size: 1.1rem;
