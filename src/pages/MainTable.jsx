@@ -19,7 +19,7 @@ export default function MainTable(){
         <span className="list-item-span game-stats">Drew</span>
         <span className="list-item-span game-stats">Lost</span>
         <span className="list-item-span goals">Goals For</span>
-        <span className="list-item-span goals">Goals Against</span>
+        <span className="list-item-span goals">Goals Agnst</span>
         <span className="list-item-span goals">Goal Diff.</span>
         <span className="list-item-span ">Points</span>
       </li>
