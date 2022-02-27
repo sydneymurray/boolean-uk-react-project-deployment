@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 900px) {
   .main-list{
-    width: 600px;
+    width: fit-content;
   }
   .heading-li,
   .team-li{
