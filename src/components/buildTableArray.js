@@ -21,3 +21,6 @@ export default function buildTableArray(teams, results){
   return tableDataArray
 }
 
+/*
+  tableDataArray.sort((a, b) => (b.points - a.points) ? 1 : (a.points === b.points) ? ((a.goalDifference - b.goalDifference) ? 1 : -1) : -1 )
+*/
