@@ -6,6 +6,7 @@ export default function NewTeamEntryForm(){
   let addNewTeam = useStore(store => store.addNewTeam)
 
   function submitForm(event){
+    event.preventDefault()
     addNewTeam({name: event.target.newTeamName.value, image: event.target.newTeamImage.value, info: event.target.teamInfo.value})
     registerNewTeam({name: event.target.newTeamName.value, image: event.target.newTeamImage.value, info: event.target.teamInfo.value})
     alert(`${event.target.newTeamName.value} was succussfully registered`)
