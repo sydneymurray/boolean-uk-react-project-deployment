@@ -37,6 +37,9 @@ export default function ResultEntryForm(){
     }
     addAResult(result)
     recordResult(result)
+    alert(`The ${teams.find(team => team.id === result.homeTeam).name} vs ` + 
+      `${teams.find(team => team.id === result.awayTeam).name} ` +
+      `result was successfully registered`)
     event.target.reset()
   }
 

@@ -8,9 +8,9 @@ export default function NewTeamEntryForm(){
   function submitForm(event){
     addNewTeam({name: event.target.newTeamName.value, image: event.target.newTeamImage.value, info: event.target.teamInfo.value})
     registerNewTeam({name: event.target.newTeamName.value, image: event.target.newTeamImage.value, info: event.target.teamInfo.value})
-  event.target.reset()
+    alert(`${event.target.newTeamName.value} was succussfully registered`)
+    event.target.reset()
   }
-
 
   return <>
     <form className="registration-input-form" onSubmit={event => submitForm(event)}>
