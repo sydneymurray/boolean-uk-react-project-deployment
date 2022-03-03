@@ -4,7 +4,7 @@ import {useState, useEffect} from "react"
 export default function Footer(){
   const [sigTime, setSigTime] = useState()
   
-  useEffect(() => setInterval(() => setSigTime((new Date).toString().slice(15,24)), 1000), [])  
+  useEffect(() => setInterval(() => setSigTime((new Date()).toString().slice(15,24)), 1000), [])  
 
   return <>
     <div className="Footer">
