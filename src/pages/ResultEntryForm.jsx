@@ -25,8 +25,16 @@ export default function ResultEntryForm(){
 
   function saveResult(event){
     event.preventDefault()
-    if (event.target.homeTeam.value === 0 || event.target.awayTeam.value === 0 ) return
-    if (event.target.homeTeam.value === event.target.awayTeam.value) return
+    console.log(event.target.homeTeam.value)
+    if (!Number(event.target.homeTeam.value) || !Number(event.target.awayTeam.value)) {
+      alert(`Please select two teams to play.`)      
+      return
+    }
+    if (event.target.homeTeam.value === event.target.awayTeam.value) {
+      let team = teams.find(team => team.id === Number(event.target.homeTeam.value))
+      alert(`${team.name} cannot play themselves.\nPlease select two different teams to play.`)
+      return
+    }
 
     let result={
       homeTeam: Number(event.target.homeTeam.value),
