@@ -1,6 +1,7 @@
 # My Football League 
 A league table where you can create teams, view fixtures and add and view results. \
-This project is built upon React & JSON Server.
+This project is built upon React & JSON Server. \
+Hosted at:- https://condescending-colden-37030e.netlify.app/ \
 
 ## How to build this app
 mkdir league-table-folder \
