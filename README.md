@@ -5,7 +5,7 @@ This project is built upon React & JSON Server.
 ## How to build this app
 mkdir league-table-folder \
 cd league-table-folder> \
-git clone https://github.com/sydneymurray/boolean-uk-react-project.git \
+git clone https://github.com/sydneymurray/boolean-uk-react-project-deployment.git \
 npm install
 
 ## Start JSON Server
