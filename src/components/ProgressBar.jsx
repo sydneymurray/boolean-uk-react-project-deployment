@@ -11,8 +11,8 @@ const ProgressBar = () => {
         setInterval(() => {updateProgressBar()}, 500)},[])
 
     const updateProgressBar = () => {
-        if (fillPercentage === 100) fillPercentage = -5
-        fillPercentage += 2.5
+        if (fillPercentage === 100) fillPercentage = -10
+        fillPercentage += 5
         let newStyle = {
             backgroundColor: "#212e9c",
             height: "100%",
