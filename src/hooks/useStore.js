@@ -41,7 +41,11 @@ const useStore = create((set, get)=>({
   })),
   addNewTeam: newTeam => set(store => ({
     teams: [...store.teams, newTeam]
-  }))
+  })),
+  displayPleaseWaitBox: true,
+  setDisplayPleaseWaitBox: state => set(store => ({
+    displayPleaseWaitBox: state
+  })),
 }))
 export default useStore
 

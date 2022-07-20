@@ -6,7 +6,9 @@ import RenderTeamListItem from "../components/RenderTeamListItem"
 export default function MainTable(){
   let teams = useStore(store => store.teams)
   let results = useStore(store => store.results)
+  let setDisplayPleaseWaitBox = useStore(store => store.setDisplayPleaseWaitBox)
   if (teams === null || results === null) return <></>
+  setDisplayPleaseWaitBox(false)
   let tableArray = buildTableArray(teams, results)
 
   return <>

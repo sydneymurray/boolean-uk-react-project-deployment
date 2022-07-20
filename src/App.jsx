@@ -11,12 +11,14 @@ import Footer from "./components/Footer"
 import MenuButtons from "./components/MenuButtons";
 import useStore from "./hooks/useStore"
 import MainResults from "./pages/MainResults"
+import PleaseWaitBox from "./components/PleaseWaitBox";
 
 function App() {
   let leagueStartDate = useStore(store => store.leagueStartDate)
   let retrieveTeams = useStore(store => store.retrieveTeams)
   let retrieveResults = useStore(store => store.retrieveResults)
   let retrieveleagueStartDate = useStore(store => store.retrieveleagueStartDate)
+  let displayPleaseWaitBox = useStore(store => store.displayPleaseWaitBox)
 
   if(!leagueStartDate) retrieveleagueStartDate()
   retrieveTeams()
@@ -26,6 +28,7 @@ function App() {
     <Header/>
     <Switch>
       <Route path="/" exact>
+        {displayPleaseWaitBox && <PleaseWaitBox text="Please Wait: Loading"/>}
         <MainTable/>
         <MenuButtons/>
       </Route>           
